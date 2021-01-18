@@ -33,6 +33,8 @@ const (
 	CrossedOut
 )
 
+var ColorNames = []string{"Black", "Red", "Green", "Yellow", "Blue", "Magenta", "Cyan", "White"}
+
 // Foreground text colors
 const (
 	FgBlack Attribute = iota + 30
@@ -84,9 +86,9 @@ const (
 // New returns a newly created color object.
 func New(value ...Attribute) *Color { return &Color{params: value} }
 
-// sequence returns a formatted SGR sequence to be plugged into a "\x1b[...m"
+// Seq returns a formatted SGR Seq to be plugged into a "\x1b[...m"
 // an example output might be: "1;36" -> bold cyan
-func (c *Color) sequence() string {
+func (c *Color) Seq() string {
 	format := make([]string, len(c.params))
 	for i, v := range c.params {
 		format[i] = strconv.Itoa(int(v))
@@ -96,9 +98,9 @@ func (c *Color) sequence() string {
 }
 
 // Wrap wraps the s string with the colors attributes. The string is ready to be printed.
-func (c Color) Wrap(s string) string { return c.Start() + s + End }
+func (c Color) Wrap(s interface{}) string { return fmt.Sprintf("%s%v%s", c.Start(), s, End) }
 
-func (c Color) Start() string { return fmt.Sprintf("%s[%sm", Escape, c.sequence()) }
+func (c Color) Start() string { return fmt.Sprintf("%s[%sm", Escape, c.Seq()) }
 
 func (c Color) End() string { return End }
 

@@ -303,70 +303,36 @@ Yellow
 玫瑰红带白心 Rose Red With White Throat
 古代稀 Godetia
 
-深玫瑰红
-Deep Rose
-
-淡紫色
-Lavender
+深玫瑰红 Deep Rose
+淡紫色 Lavender
 
 淡玫瑰色 Lilac Rose
 橙红色 Salmon
 淡紫色 Lavender
-肉色
-Shell Pink
-羞红色
-Bulsh
-
-洋红色玫瑰色
-Carmine Rose
-
-珊瑚红
-Coral
-
-深橙色
-Deep Salmon
-
+肉色 Shell Pink
+羞红色 Bulsh
+洋红色玫瑰色 Carmine Rose
+珊瑚红 Coral
+深橙色 Deep Salmon
 淡紫色 Lavender
-
 浅粉红色 Light Pink
-
 霓红玫瑰红 Neon Rose
-
 桔红色 Orange
 蓝色 Blue
 粉红色 Pink
 白色 White
 黄色 Yellow
-
 蓝色 Blue
-
 蓝色镶边 Blue Picotee
 淡蓝色 Light Blue
 纯白色 Pure White
-
 粉红色镶边 Pink Picotee
-
-淡玫瑰红
-Lilac Rose
-
+淡玫瑰红 Lilac Rose
 单边多枝性“海蒂系列”
-Single “Heidi Series”
-1M
-1,000
-144.00
-
-标准混色
-Formula Mixed
-
-橙红色
-Salmon
-
-蓝色镶边
-Blue Rim lmp
-
-樱花红
-Cherry Blossom
-
+标准混色 Formula Mixed
+橙红色 Salmon
+蓝色镶边 Blue Rim lmp
+樱花红 Cherry Blossom
 深蓝色 Deep Blue
 天蓝色 Sky Blue
 淡紫色 Orchid
@@ -431,6 +397,7 @@ Red Morn
 叶脉标准混色 Vein Formula Mixed
 
 一.        红色类
+
 红色 red
 朱红 vermeil; vermilion; ponceau
 粉红 pink; soft red; rose bloom
@@ -484,11 +451,11 @@ madder; ruby; cerise; cherry
 血牙红 shell pink; peach beige
 绯红 scarlet; crimson; geranium pink
 米红 silver pink
-
 红 deep red; crimson
 淡红 light red; carnation
 
 二.橙色类
+
 橙色 orange
 三.黄色类
 黄色 yellow
@@ -505,18 +472,15 @@ madder; ruby; cerise; cherry
 蛋黄 vitelline; yolk yellow;egg yellow
 藤黄 rattan yellow
 鳝鱼黄 eel yellow
-
 牙黄 ivory
 日光黄 sunny yellow
 石黄 mineral yellow
-土黄 earth yellow; yellowish brown; yellow ocher; golden
-apricot
+土黄 earth yellow; yellowish brown; yellow ocher; golden apricot
 砂黄 sand yellow
 金黄 golden yellow, gold
 铁黄 iron oxide yellow; iron buff
 镉黄 cadmium yellow
 铬黄 chrome yellow
-
 黄 cobalt yellow
 深黄,暗黄 deep yellow
 棕黄 tan
@@ -562,15 +526,13 @@ olive drab
 孔雀绿 peacock green
 威尼斯绿 Venetian green
 巴黎绿 Paris green king's green
-墨绿 blackish green green black; jasper; dark green
-deep green
+墨绿 blackish green green black; jasper; dark green; deep green
 墨玉绿 emerald black
 深绿 dark green petrol; Chinese green; bottle green
 暗绿 sap green dark green deep green
 青绿 dark green
 碧绿 azure green; turquoise green viridity
-翠绿 emerald green; jade green bright green verdancy
-viridity
+翠绿 emerald green; jade green bright green verdancy viridity
 深翠绿 viridian
 蓝绿 blue green aquamarine
 黄绿 yellow green

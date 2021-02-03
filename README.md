@@ -45,9 +45,9 @@ For example:
 | `ESC` | 27      | 033   | 0x1B | `<none>` | `^[`     | Escape character               |
 | `DEL` | 127     | 177   | 0x7F | `<none>` | `<none>` | Delete character               |
 
-> Note: The **Ctrl-Key** representation is simply associating the non-printable characters 
-> from ASCII code 1 with the printable (letter) characters from ASCII code 65 ("A"). 
-> ASCII code 1 would be `^A` (Ctrl-A), while ASCII code 7 (BEL) would be `^G` (Ctrl-G). 
+> Note: The **Ctrl-Key** representation is simply associating the non-printable characters
+> from ASCII code 1 with the printable (letter) characters from ASCII code 65 ("A").
+> ASCII code 1 would be `^A` (Ctrl-A), while ASCII code 7 (BEL) would be `^G` (Ctrl-G).
 > This is a common representation (and input method) and historically comes from one of the VT series of terminals.
 
 ## Cursor Controls
@@ -123,7 +123,7 @@ Most terminals, apart from the basic set of 8 colors, also support the "bright" 
 
 The following escape code tells the terminal to use the given color ID:
 
-```
+```sh
 ESC[38;5;${ID}m
 ```
 
@@ -196,13 +196,13 @@ ESC[{code};{string};{...}p
 ```
 
 Redefines a keyboard key to a specified string.
- 
+
 The parameters for this escape sequence are defined as follows:
- 
+
 Code is one or more of the values listed in the following table. These values represent keyboard keys and key combinations. When using these values in a command, you must type the semicolons shown in this table in addition to the semicolons required by the escape sequence. The codes in parentheses are not available on some keyboards. ANSI.SYS will not interpret the codes in parentheses for those keyboards unless you specify the /X switch in the DEVICE command for ANSI.SYS.
- 
+
 String is either the ASCII code for a single character or a string contained in quotation marks. For example, both 65 and "A" can be used to represent an uppercase A.
- 
+
 IMPORTANT: Some of the values in the following table are not valid for all computers. Check your computer's documentation for values that are different.
 
 | Key                      | Code     | SHIFT+code | CTRL+code | ALT+code  |
@@ -299,9 +299,9 @@ IMPORTANT: Some of the values in the following table are not valid for all compu
 | \+ (keypad)              | 43       | 43         | (0;150)   | (0;55)    |
 | 5 (keypad)               | (0;76)   | 53         | (0;143)   | \--       |
 
-
 ## Resources
 
+- [logrusorgru/aurora Golang ultimate ANSI-colors that supports Printf/Sprintf methods](https://github.com/logrusorgru/aurora)
 - [Wikipedia: ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code)
 - [Build your own Command Line with ANSI escape codes](http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html)
 - [ascii-table: ANSI Escape sequences](http://ascii-table.com/ansi-escape-sequences.php)
